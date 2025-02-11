@@ -88,10 +88,6 @@ body{
    gap:10px;
 }
 
-.input-boxes{
-    align-self: flex-start;
-}
-
 #submit{
     background-color: rgb(35, 61, 127);
     color: white;
@@ -102,6 +98,7 @@ body{
 }
 
 .input-boxes{
+    align-self: flex-start;
     width: 100%;
     margin-top: 15px;
     padding: 5px;
@@ -112,6 +109,7 @@ body{
     border-right: none;
     border-bottom: solid rgba(0,0,0,0.2) 1.5px;
     transition: border-bottom .15s;
+    z-index:3;
 }
 .input-boxes:focus{
     outline: none;
